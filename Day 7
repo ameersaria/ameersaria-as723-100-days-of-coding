@@ -1,0 +1,18 @@
+////////// Question 19 //////////
+
+let guestList: string[] = ["Ali", "Usman", "Ameer Saria", "Ameer Mavia", "Shameer"];
+console.log(`I am inviting ${guestList.length} people to dinner.`);
+
+////////// Question 20 //////////
+
+let selfThinking= ["Murree", "Ayoubia", "Abbotabad", "Sialkot", "Karachi"]; 
+console.log("I like to visit these cities:",selfThinking);
+
+////////// Question 21 //////////
+
+let data: {name:string; developer:string; yearDeveloped:number} = {
+    name: "Javascript",
+    developer: "Brendan Eich",
+    yearDeveloped:1995
+};
+console.log(`Info: ${data.name}, By: ${data.developer}, Developed in ${data.yearDeveloped}`);
