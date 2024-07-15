@@ -1,0 +1,23 @@
+////////////// Question 4 ////////////
+
+console.log("Albert Einstein once said, 'A person who never made a mistake never tried anything new' ");
+
+////////////// Question 5 ////////////
+
+let person_name= "Albert Einstein";
+let message= `${person_name} once said, "A person who never made a mistake never tried anything new."`;
+console.log(message);
+
+////////////// Question 6 ////////////
+
+let strippingNames="\t\n Saria \t\n";
+          
+        //    this will add whitespaces
+console.log(strippingNames);
+
+                        //    trim will remove whitespaces
+console.log(strippingNames.trim());
+
+
+
+
