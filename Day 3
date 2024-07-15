@@ -1,0 +1,20 @@
+////////// Question 7 ///////////
+
+console.log([5 + 3,11 - 3,4 * 2,16 / 2]);  // Addition
+
+////////// Question 8 ///////////
+
+console.log(6 + 2);  // Addition
+
+console.log(7 + 1);  // Addition
+
+console.log(5 + 3);  // Addition
+
+console.log(4 + 4);  // Addition
+
+////////// Question 9 ///////////
+
+let favoriteNumber=723;
+
+console.log(`My favorite number is ${favoriteNumber}`);
+
