@@ -1,0 +1,18 @@
+//////////// Question 2: ///////////////
+
+let personalMessage :string=("Asharib");
+
+console.log(`Hello ${personalMessage}, Would you like to learn some python today?`);
+
+////////// Question 3: ///////////////
+let personName: string = "Saria"
+console.log(personName.toLowerCase());
+console.log(personName.toUpperCase());
+
+                  //   for first letter big               for other all letters small
+console.log(personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase());
+
+
+
+
+
