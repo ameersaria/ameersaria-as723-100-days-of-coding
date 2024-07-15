@@ -1,0 +1,62 @@
+////////// Question 25 //////////
+
+let alien_color ="yellow";
+// if (alien_color == "yellow") {
+//     console.log("Hello World");
+    
+// }
+
+if (alien_color == "black") {
+        console.log("Hello World");
+    }
+
+////////// Question 26 //////////
+
+let alien_color ="yellow";
+if (alien_color == "blue") {
+    console.log("Hello World");   
+} else {
+    alien_color == 'yellow'
+    console.log("Hello Rani");
+}
+////////// Question 27 //////////
+
+let alien_color ="yellow";
+
+    //    for Hello World1
+// if (alien_color == "yellow") {
+//     console.log("Hello World1");   
+// } else if
+//     (alien_color == 'red') {
+//     console.log("Hello World2"); 
+// }else if(
+//     alien_color == "green"){
+//     console.log("Hello World3");
+    
+// }
+
+//    for Hello World2
+// if (alien_color == "red") {
+//     console.log("Hello World1");   
+// } else if
+//     (alien_color == 'yellow') {
+//     console.log("Hello World2"); 
+// }else if(
+//     alien_color == "green"){
+//     console.log("Hello World3");
+    
+// }
+
+//    for Hello World3
+
+
+if (alien_color == "green") {
+    console.log("Hello World1");   
+} else if
+    (alien_color == 'red') {
+    console.log("Hello World2"); 
+}else if(
+    alien_color == "yellow"){
+    console.log("Hello World3");
+}
+
