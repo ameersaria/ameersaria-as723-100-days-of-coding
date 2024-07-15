@@ -1,0 +1,26 @@
+////////// Question 13 //////////
+
+let favoriteCar=["Revo","Cultus","Civic","Fortuner"];
+
+favoriteCar.forEach(favoriteCar =>{
+    console.log(`I would like to own a ${favoriteCar}.`);
+});
+
+////////// Question 14 //////////
+
+let guestList=["Ali","Usman","Taha"];
+guestList.forEach(guestList =>{
+    console.log(`Dear ${guestList}, We invite you for dinner.`);
+})
+
+////////// Question 15 //////////
+
+let notComing="Taha"
+console.log(`${notComing} will not come to dinner`);
+
+let newGuest = "Ameer Saria"
+guestList[guestList.indexOf(notComing)] = newGuest;
+
+guestList.forEach(guestList =>{
+    console.log(`Dear ${guestList}, Would you like to  join me for dinner`);
+});
