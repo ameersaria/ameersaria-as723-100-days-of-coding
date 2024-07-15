@@ -1,0 +1,57 @@
+////////// Question 16 ////////// 
+
+let guestList: string [] =["Ali","Usman","Ameer Saria"];
+console.log("Great news!We found a big dinner table");
+
+guestList.unshift("Ameer Mavia");
+guestList.splice(guestList.length / 2, 0, "Ameer Hamza");
+guestList.push("Shameer");
+
+guestList.forEach(guestList => {
+    console.log(`Dear ${guestList}, would you like to join me for dinner?`);
+});
+
+////////// Question 17 ////////// 
+
+let guestList: string [] =["Ali","Usman","Ameer Saria"];
+
+console.log("Unfortunately, We can only invite two people for dinner.");
+ 
+while(guestList.length > 2) {
+    let removedGuest = guestList.pop();
+    console.log(`Sorry, ${removedGuest}, I can't invite you to dinner.`);
+}
+guestList.forEach(guest => {
+    console.log(`Dear ${guest}, you're still invited to dinner.`);
+});
+
+////////// Question 18 ////////// 
+
+let favoritePlaces=["Saudi Arabia","America","Brazil","Japan","China"]
+console.log("Original order:", favoritePlaces);
+console.log("Alphabetical order:", [...favoritePlaces].sort());
+
+console.log("Original order:", favoritePlaces);
+
+console.log("Reverse alphabetical order:", [...favoritePlaces].sort().reverse());
+
+console.log("Original order:", favoritePlaces);
+
+favoritePlaces.reverse();
+console.log("Reversed order:", favoritePlaces);
+
+favoritePlaces.reverse();
+console.log("Original order:", favoritePlaces);
+
+favoritePlaces.sort();
+console.log("Alphabetical order:", favoritePlaces);
+
+// favoritePlaces.reverse();
+// console.log("Reverse alphabetical order:", favoritePlaces);
+
+
+
+
+
+
+
